@@ -1,0 +1,70 @@
+.brand-logo{
+  margin-left: 10px;
+  font-size: 2px;
+}
+
+nav{
+  height: 64px!important;
+  line-height: 64px!important;
+}
+
+.nav-wrapper a{
+  color: #F3EFEF;
+}
+
+.nav-wrapper a:hover{
+  color: black;
+}
+
+.carousel-big .carousel-item{
+  width: 600px!important;
+}
+
+.carousel-big{
+  top: -240px!important;
+  padding-bottom: 750px!important;
+}
+
+.carousel-small .carousel-item{
+  width: 300px!important;
+}
+
+.carousel-small{
+  top: -90px!important;
+}
+
+.carousel .indicators .indicator-item {
+  background-color: grey;
+}
+
+.carousel .indicators .indicator-item.active {
+  background-color: black;
+}
+
+
+@media (max-width:480px) {
+  .brand-logo{
+    font-size: 17px!important;
+  }
+  nav{
+    height: 50px!important;
+    line-height: 50px!important;
+  }
+
+}
+
+
+
+
+
+#work-in-progress {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  font-size: 150px;
+  text-align: center;
+  vertical-align: middle;
+  color: #000000;
+  z-index: 200000;
+  background-color: #FFFFFF;
+}
