@@ -1,62 +1,62 @@
+/*nav bar styling here */
 .brand-logo{
   margin-left: 10px;
   font-size: 2px;
 }
-
 nav{
   height: 64px!important;
   line-height: 64px!important;
 }
-
 .nav-wrapper a{
   color: #F3EFEF;
 }
-
 .nav-wrapper a:hover{
   color: black;
 }
 
+
+/*carousel styling */
 .carousel-big .carousel-item{
   width: 600px!important;
 }
-
 .carousel-big{
   top: -240px!important;
   padding-bottom: 750px!important;
 }
-
 .carousel-small .carousel-item{
   width: 300px!important;
 }
-
 .carousel-small{
   top: -90px!important;
 }
-
 .carousel .indicators .indicator-item {
   background-color: grey;
 }
-
 .carousel .indicators .indicator-item.active {
   background-color: black;
 }
 
-
+/*media query goes in */
 @media (max-width:480px) {
   .brand-logo{
-    font-size: 17px!important;
+    font-size: 18px!important;
+  }
+  nav .button-collapse i {
+    line-height: 50px!important;
+  }
+  #sidenav-overlay {
+    z-index: 0!important;
   }
   nav{
     height: 50px!important;
     line-height: 50px!important;
   }
-
 }
 
 
 
 
-
+/*for pre load scrolling */
 #work-in-progress {
   position: fixed;
   width: 100%;
