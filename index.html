@@ -1,80 +1,182 @@
 <!DOCTYPE html>
-  <html>
-    <head>
-      <!--Import Google Icon Font-->
-      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-      <!--Import materialize.css-->
-      <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css"  media="screen,projection"/>
-      <link rel="stylesheet" href="css/main-style.css">
+<html>
 
-      <!--Let browser know website is optimized for mobile-->
-      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    </head>
+<head>
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css" media="screen,projection" />
+  <link rel="stylesheet" href="css/main-style.css">
 
-    <body>
-      <div id="work-in-progress">
-        <div class="preloader-wrapper big active">
-          <div class="spinner-layer spinner-blue">
-            <div class="circle-clipper left">
-              <div class="circle"></div>
-            </div><div class="gap-patch">
-              <div class="circle"></div>
-            </div><div class="circle-clipper right">
-              <div class="circle"></div>
-            </div>
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+
+  <!-- nav bar for both mobile and desktops -->
+  <div class="navbar-fixed">
+    <nav>
+      <div class="nav-wrapper teal darken-2">
+        <a href="#" class="brand-logo">Savvy Constructions</a>
+        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+          <li class="active"><a href="index.html">HOME</a></li>
+          <li><a href="subPages/about.html">ABOUT</a></li>
+          <li><a href="subPages/projects.html">PROJECTS</a></li>
+          <li><a href="">OFFERS</a></li>
+          <li><a href="subPages/contact.html">CONTACT US</a></li>
+        </ul>
+        <ul class="side-nav" id="mobile-demo">
+          <li><a href="">HOME</a></li>
+          <li><a href="">ABOUT</a></li>
+          <li><a href="">PROJECTS</a></li>
+          <li><a href="">OFFERS</a></li>
+          <li><a href="">CONTACT US</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+  <!-- html for the progress circle -->
+  <div id="work-in-progress" class="center-align">
+    <div class="preloader-wrapper big active">
+      <div class="spinner-layer spinner-blue">
+        <div class="circle-clipper left">
+          <div class="circle"></div>
+        </div>
+        <div class="gap-patch">
+          <div class="circle"></div>
+        </div>
+        <div class="circle-clipper right">
+          <div class="circle"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- html for the carousel for both mobile and desktop-->
+  <div class="carousel hide-on-small-only carousel-big" data-indicators="true">
+    <p class="carousel-item" href=""><img src="assets\carousel\architecture-construction-build-building-162557.jpg"></p>
+    <p class="carousel-item" href=""><img src="assets\carousel\pexels-photo-7931.jpg"></p>
+    <p class="carousel-item" href=""><img src="assets\carousel\pexels-photo-323772.jpg"></p>
+    <p class="carousel-item" href=""><img src="assets\carousel\pexels-photo-323781.jpg"></p>
+    <p class="carousel-item" href=""><img src="assets\carousel\pexels-photo-534219.jpg"></p>
+  </div>
+  <div class="carousel show-on-small hide-on-med-and-up carousel-small" data-indicators="true">
+    <p class="carousel-item" href=""><img src="assets\carousel\architecture-construction-build-building-162557.jpg"></p>
+    <p class="carousel-item" href=""><img src="assets\carousel\pexels-photo-7931.jpg"></p>
+    <p class="carousel-item" href=""><img src="assets\carousel\pexels-photo-323772.jpg"></p>
+    <p class="carousel-item" href=""><img src="assets\carousel\pexels-photo-323781.jpg"></p>
+    <p class="carousel-item" href=""><img src="assets\carousel\pexels-photo-534219.jpg"></p>
+  </div>
+
+  <!-- this is the starting of the container -->
+  <div class="container">
+
+    <!-- html for who i am -->
+    <div class="about z-depth-2">
+      <h5 style="text-align:center;">ABOUT ME</h5>
+      <hr><br>
+
+      <div class="row">
+        <div class="col s12 l4">
+          <div class="about-image">
+            <img class="circle img" src="assets\about\saipranav.jpg" alt="my image">
+          </div>
+        </div>
+        <div class="col s12 l8">
+          <div class="about-content">
+            <p><span class="hide-on-small-only">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+              irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span></p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+              irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
           </div>
         </div>
       </div>
+      <span style="color:#31B0D3;float:right;cursor:pointer;margin-top:8px;">more info >></span>
+    </div><!--about div ends here -->
+    <br><br>
 
-      <div class="navbar-fixed">
-      <nav>
-        <div class="nav-wrapper teal darken-2">
-          <a href="#" class="brand-logo">Saavy Constructions</a>
-          <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-          <ul class="right hide-on-med-and-down">
-            <li><a href="">ABOUT US</a></li>
-            <li><a href="">PROJECTS</a></li>
-            <li><a href="">OFFERS</a></li>
-            <li><a href="">CONTACT US</a></li>
-          </ul>
-          <ul class="side-nav" id="mobile-demo">
-            <li><a href="">ABOUT</a></li>
-            <li><a href="">PROJECTS</a></li>
-            <li><a href="">OFFERS</a></li>
-            <li><a href="">CONTACT US</a></li>
-          </ul>
-        </div>
-      </nav>
+    <h5 style="text-align:center">SO FAR PROJECTS</h5>
+    <hr>
+    <!-- html for projects -->
+    <div class="projects">
+      <ul class="collapsible popout" data-collapsible="accordion">
+        <li>
+          <div class="collapsible-header active"><i class="material-icons">domain</i>villa in uppal</div>
+          <div class="collapsible-body">
+            <div class="row">
+              <div class="col s12 l4">
+                <div class="about-image">
+                  <img class="img" src="assets\carousel\pexels-photo-323772.jpg" alt="my image">
+                </div>
+              </div>
+              <div class="col s12 l8">
+                <div class="about-content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                    irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="collapsible-header"><i class="material-icons">domain</i>appartment in habsiguda</div>
+          <div class="collapsible-body">
+            <div class="row">
+              <div class="col s12 l4">
+                <div class="about-image">
+                  <img class="img" src="assets\carousel\pexels-photo-7931.jpg" alt="my image">
+                </div>
+              </div>
+              <div class="col s12 l8">
+                <div class="about-content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                    irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="collapsible-header"><i class="material-icons">domain</i>factory in narapally</div>
+          <div class="collapsible-body">
+            <div class="row">
+              <div class="col s12 l4">
+                <div class="about-image">
+                  <img class="img" src="assets\carousel\zhipeng-ya-345515-unsplash (1).jpg" alt="my image">
+                </div>
+              </div>
+              <div class="col s8">
+                <div class="about-content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                    irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+      <span style="color:#31B0D3;float:right;cursor:pointer;">more info >></span>
+      <div class="clearfix">
+
       </div>
+    </div><!--projects div ends here -->
 
+  </div><!--container div ends here -->
 
-      <div class="carousel hide-on-small-only carousel-big" data-indicators="true">
-          <p class="carousel-item" href=""><img src="assets\carousel\architecture-construction-build-building-162557.jpg"></p>
-          <p class="carousel-item" href=""><img src="assets\carousel\pexels-photo-7931.jpg"></p>
-          <p class="carousel-item" href=""><img src="assets\carousel\pexels-photo-323772.jpg"></p>
-          <p class="carousel-item" href=""><img src="assets\carousel\pexels-photo-323781.jpg"></p>
-          <p class="carousel-item" href=""><img src="assets\carousel\pexels-photo-534219.jpg"></p>
-      </div>
+  <footer>
+    <div class="page-footer teal darken-2">
+      <p style="text-align:center;"> &copy copyright udaysai194@gmail.com</p>
+    </div>
 
-      <div class="carousel show-on-small hide-on-med-and-up carousel-small" data-indicators="true">
-          <p class="carousel-item" href=""><img src="assets\carousel\architecture-construction-build-building-162557.jpg"></p>
-          <p class="carousel-item" href=""><img src="assets\carousel\pexels-photo-7931.jpg"></p>
-          <p class="carousel-item" href=""><img src="assets\carousel\pexels-photo-323772.jpg"></p>
-          <p class="carousel-item" href=""><img src="assets\carousel\pexels-photo-323781.jpg"></p>
-          <p class="carousel-item" href=""><img src="assets\carousel\pexels-photo-534219.jpg"></p>
-      </div>
+  </footer>
 
+  <!--Import jQuery before materialize.js-->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+</body>
 
-      <div class="" style="height: 1000px">
-
-      </div>
-
-
-
-
-      <!--Import jQuery before materialize.js-->
-      <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-      <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
-      <script type="text/javascript" src="js/main.js"></script>
-    </body>
-  </html>
+</html>

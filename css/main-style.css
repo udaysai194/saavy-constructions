@@ -1,3 +1,12 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background-color: #F1F1F1!important;
+}
+
 /*nav bar styling here */
 .brand-logo{
   margin-left: 10px;
@@ -20,14 +29,15 @@ nav{
   width: 600px!important;
 }
 .carousel-big{
-  top: -240px!important;
-  padding-bottom: 750px!important;
+  top: -210px!important;
+  height: 650px!important;
 }
 .carousel-small .carousel-item{
   width: 300px!important;
 }
 .carousel-small{
-  top: -90px!important;
+  top: -55px!important;
+  height: 310px!important;
 }
 .carousel .indicators .indicator-item {
   background-color: grey;
@@ -35,6 +45,27 @@ nav{
 .carousel .indicators .indicator-item.active {
   background-color: black;
 }
+
+/*about component styling */
+.about{
+  margin-top: -150px;
+  padding: 1px 15px 1px 15px;
+  border-radius: 10px;
+  background-color: white;
+}
+.about-image {
+}
+.img {
+  width: 100%;
+}
+.about-content {
+}
+
+/*footer style goes down */
+footer{
+  margin-top: 10px;
+}
+
 
 /*media query goes in */
 @media (max-width:480px) {
@@ -50,6 +81,9 @@ nav{
   nav{
     height: 50px!important;
     line-height: 50px!important;
+  }
+  .about{
+    margin-top: -60px;
   }
 }
 
